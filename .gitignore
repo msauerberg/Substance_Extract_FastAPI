@@ -7,3 +7,4 @@ venv
 .DS_store
 .pyc
 __pycache__
+__init__.py
