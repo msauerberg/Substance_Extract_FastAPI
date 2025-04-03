@@ -1,7 +1,7 @@
 # Substance_Extract_FastAPI
 The code creates a API which allows uploading a csv with free text field and returns the extracted substances
 
-#How do run it?
+# How do run it?
 
 run "uvicorn main:app --reload" in cmd
 then run "curl.exe -X 'POST' 'http://127.0.0.1:8000/process/' -F 'file1=@input.csv' -F 'file2=@substanz.csv' -o output.csv"
